@@ -1,0 +1,14 @@
+/* 
+=========================
+       Text Overflow
+=========================
+    
+    Text can overflow for example when it is prevented from wrapping.
+    Syntax: [ clip | ellipsis | <string> ]{1,2}
+
+ */
+.div1{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-overflow: hidden;
+}

@@ -1,0 +1,42 @@
+/* 
+=========================
+    Text Decoration
+=========================
+
+Syntax: 
+<'text-decoration-line'> || Specifies what line decorations, if any, are added to the element.
+    Syntax: none | [ underline || overline || line-through || blink ] | spelling-error | grammar-error
+<'text-decoration-style'> || Specifies the line style for underline, line-through and overline text decoration.
+    Syntax: solid | double | dotted | dashed | wavy
+<'text-decoration-color'> || 
+<'text-decoration-thickness'>
+<'text-decoration-skip'>  Property is experimental. Be cautious when using it.️
+    The text-decoration-skip CSS property specifies what parts of the element’s content any text decoration affecting the element must skip over. It controls all text decoration lines drawn by the element and also any text decoration lines drawn by its ancestors.
+    Syntax: none | [ objects || [ spaces | [ leading-spaces || trailing-spaces ] ] || edges || box-decoration ]
+
+*/
+
+/* text-decoration: line style color skip ; */
+.div1{
+    text-decoration: line-through dotted red ;
+}
+
+/* 
+=========================
+    Text Transform
+=========================
+Controls capitalization effects of an element’s text.
+
+Syntax: none | capitalize | uppercase | lowercase | full-width | full-size-kana
+
+*/
+
+.div2{
+    text-transform:capitalize
+}
+.div3{
+    text-transform:uppercase;
+}
+.div4{
+    text-transform:lowercase
+}

@@ -1,0 +1,16 @@
+/* 
+all Element Inheritance Form Fother Elemnts Like Div Wel inheritance Some Proparties Form it 
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: red;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid blue;
+
+}
+.div1{
+    font-size: 30px;
+    border: inherit;
+}

@@ -1,0 +1,64 @@
+/* 
+=========================
+       Text Spacing
+=========================
+[1] letter Spacing =>
+        Specifies the minimum, maximum, and optimal spacing between grapheme clusters.
+        Syntax: normal | <length>
+[2] indentaion
+        Specifies the indentation applied to lines of inline content in a block. The indentation only affects the first line of inline content in the block unless the 'hanging' keyword is specified, in which case it affects all lines except the first.
+        Syntax: <length-percentage> && hanging? && each-line?
+[3] line Heght
+        Determines the block-progression dimension of the text content area of an inline box.
+        Syntax: normal | <number> | <length> | <percentage>
+[4] word Spacing 
+        Specifies additional spacing between “words”.
+        Syntax: normal | <length-percentage>
+[5] white-space
+        Shorthand property for the 'white-space-collapsing' and 'text-wrap' properties.
+        Syntax: normal | pre | nowrap | pre-wrap | pre-line | break-spaces
+[6] word-break 
+        Also define the standard property 'word-break' for compatibilitycss(vendorPrefix)
+        Specifies line break opportunities for non-CJK scripts.
+ */
+
+.div1{
+    letter-spacing: 5px;
+    /* Specifies the minimum, maximum, and optimal spacing between grapheme clusters.
+    Syntax: normal | <length> */
+}
+
+.div2{
+    letter-spacing: -2px;
+}
+
+.div3{
+    text-indent: 25px;
+    /* Specifies the indentation applied to lines of inline content in a block. The indentation only affects the first line of inline content in the block unless the 'hanging' keyword is specified, in which case it affects all lines except the first.
+    Syntax: <length-percentage> && hanging? && each-line? */
+}
+
+.div4{
+    line-height: 1.6;
+    /* Determines the block-progression dimension of the text content area of an inline box.
+    Syntax: normal | <number> | <length> | <percentage> */
+}
+
+.div5{
+    word-spacing: 2px;
+    /* Specifies additional spacing between “words”.
+    Syntax: normal | <length-percentage> */
+}
+
+.div6{
+    white-space: nowrap;
+    /* Shorthand property for the 'white-space-collapsing' and 'text-wrap' properties.
+    Syntax: normal | pre | nowrap | pre-wrap | pre-line | break-spaces */
+}
+
+.div7{
+    word-break: break-all;
+    /* Specifies line break opportunities for non-CJK scripts.
+    Syntax: normal | break-all | keep-all | break-word */
+}
+

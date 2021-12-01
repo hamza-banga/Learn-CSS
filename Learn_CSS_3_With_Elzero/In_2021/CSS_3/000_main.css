@@ -1,0 +1,13 @@
+body{
+    background-color: #666;
+}
+.one{
+    /* width: 300px;
+    height: 80px; */
+    padding: 30px 0;
+    margin: 30px 0;
+    background-color: #333;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+}

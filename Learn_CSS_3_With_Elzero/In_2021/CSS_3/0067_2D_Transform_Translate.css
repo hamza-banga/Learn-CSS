@@ -1,0 +1,24 @@
+body{
+    position: relative;
+}
+.translate{
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: 200px;
+    background-color: chocolate;
+    color: blue;
+    margin: 200px;
+    transition: 2s;
+    text-align: center;
+    font-size: 30px;
+    line-height: 200px;
+    transform: translate(150px );
+}
+.translate:hover{
+    /* transform: rotate(60deg ); */
+    /* transform: translate(-50% ); */
+    transform: translate(-150px );
+    border-radius: 50px 0 ;
+}

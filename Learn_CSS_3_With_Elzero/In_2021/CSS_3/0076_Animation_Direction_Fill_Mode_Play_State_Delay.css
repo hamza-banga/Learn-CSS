@@ -1,0 +1,47 @@
+body{
+    /* width: 600px; */
+    height: 400px;
+}
+.div{
+    position: relative;
+    margin: 50%;
+    width: 100px;
+    height: 100px;
+}
+.shape{
+    width: 100%;
+    height: 100%;
+    background-color: #e8e3e3;
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: -50px;
+    margin-top: -50px;
+    border-radius: 50%;
+    border: 5px solid #e91e63;
+    border-left-color: transparent;
+    transition: transform 3s;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse; /* Defines whether or not the animation should play in reverse on alternate cycles. Syntax: <single-animation-direction># */
+    animation-delay: .6s;  /* Defines when the animation  will start. Syntax: <time># */
+    animation-fill-mode: backwards; /*Defines what values are applied by the animation outside the time it is executing.  Syntax: <single-animation-fill-mode># */
+    animation-play-state: running;
+    animation: spin 3s linear 2s infinite reverse ; /* Shorthand property combines six of the animation properties into a single property. Syntax: <single-animation># */
+
+}
+
+.shape:hover{
+    animation-play-state:paused
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

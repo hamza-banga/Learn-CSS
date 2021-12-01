@@ -1,0 +1,33 @@
+/* 
+
+Font-style
+font-weght
+font-variant
+*/
+.div1{
+    font-style: italic;
+}
+
+.div2{
+    font-style: normal;
+}
+/**
+Specifies variant representations of the font
+
+Syntax: normal | none | [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> || stylistic
+(<feature-value-name>) || historical-forms || styleset(<feature-value-name>#) || character-variant(<feature-value-name>#) || swash
+(<feature-value-name>) || ornaments(<feature-value-name>) || annotation(<feature-value-name>) || [ small-caps | all-small-caps | petite-caps |
+all-petite-caps | unicase | titling-caps ] || <numeric-figure-values> || <numeric-spacing-values> || <numeric-fraction-values> || ordinal || 
+slashed-zero || <east-asian-variant-values> || <east-asian-width-values> || ruby ]
+*/
+.div3{
+    font-variant: small-caps; /* Make Capital letter Has Same Size to small Letters */
+}
+
+.div4{
+    text-transform: uppercase;
+}
+
+.div5{
+    font-weight: bold;
+}

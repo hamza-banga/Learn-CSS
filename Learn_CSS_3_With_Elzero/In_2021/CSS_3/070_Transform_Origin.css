@@ -1,0 +1,45 @@
+/*
+ Transform-origin
+ Syntax 
+ Default Value => 50% 50% 0 
+ 2D Transform => transform-origin(x , y)
+ 3D Transform => trabsform-origin(x, y, z)
+
+ X-Axis 
+    CSS Unit(px , em, rem, ...)
+    %
+    Keyword
+        left = 0%
+        center
+        right 100%
+===============================
+ Y-Axis 
+    CSS Unit(px , em, rem, ...)
+    %
+    Keyword
+        top = 0%
+        center
+        bottom 100%
+            
+
+*/
+
+.shape{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(235, 129, 129);
+    margin: 200px;
+    transform-origin: top  center;
+    transition: 1s;
+}
+span{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(235, 229, 129);
+    margin: 200px;
+    transform-origin: top center;
+    z-index: -1
+}
+.shape:hover{
+    transform: rotate(40deg)
+}

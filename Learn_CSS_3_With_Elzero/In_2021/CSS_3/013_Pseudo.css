@@ -1,0 +1,41 @@
+/* .div2{
+    position: relative;
+}
+.div2{
+    position: relative;
+}
+.div3{
+    position: relative;
+}
+.div4{
+    position: relative;
+}
+.div5{
+    position: relative;
+}
+.div6{
+    position: relative;
+} */
+.father{
+    position: relative;
+    padding-left:50px;
+}
+.one::first-letter {
+    font-size: 25px;
+    padding: 11px;
+    margin: 20px;
+    margin-left: -50px;
+    background-color: cadetblue;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: red blue black green;
+}
+.one:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 114px;
+    background-color: #9655d6;
+}

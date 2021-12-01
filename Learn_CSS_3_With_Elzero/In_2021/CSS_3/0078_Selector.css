@@ -1,0 +1,60 @@
+/* 
+ 
+-- * => All Elemaent In Document
+-- Element => [p , div , h1 , ... ]
+-- Element OtherElement  => div p
+-- .class     <element class="class">
+-- #id        <element id="id">
+-- .parent .chaild
+<element class="parent">
+  …
+    <element class="chaild">
+
+    -- .class-one.class-tow
+-- .class dic
+-- .class-name div , .calss-name
+-- Element.class-name
+-- .parent > .child => Direct Child
+
+-- ==================================
+        Part Tow
+-- ==================================
+
+-- Element + Other Element  => [div + p ]
+-- Element ~ Other Elements  => [div ~ p ]
+-- [Attribute]
+-- Element[Attribute]
+-- Element[Attribute  = Value]  => input[type="submit"]
+-- Element[Attribute *= Value]  => Contains A String
+-- Element[Attribute ~= Value]  => Contains A Word
+-- Element[Attribute ^= Value]  => Start With A String 
+
+-- ==================================
+        Part Three
+-- ==================================
+-- :first-child
+-- :last-child
+-- :first-of-type
+-- :last-of-type
+-- :only-child
+-- :only-of-type
+-- ==================================
+        Part Four
+-- ==================================
+-- :not(Selector)
+-- :nth-child(n) == :nth-child(even) http://nth-master.com
+-- :nth-last-child(n)
+-- :nth-of-type(n)
+-- :nth-last-of-type(n)
+
+-- ==================================
+        Part Five
+-- ==================================
+-- :root
+-- :checked
+-- disabled
+-- enabled
+-- empty
+-- ....
+
+*/

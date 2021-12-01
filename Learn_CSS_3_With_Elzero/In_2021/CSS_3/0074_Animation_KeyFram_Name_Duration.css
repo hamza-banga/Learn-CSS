@@ -1,0 +1,53 @@
+.shape{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    color: #00309b;
+    text-align: center;
+    word-wrap: break-word;
+    padding-top: 50px;
+    animation-name: change-color;
+    animation-duration: 5s;
+}
+
+/* This Way  */
+/* 
+@keyframes change-color {
+    form {
+        background-color: tomato;
+    }
+    to {
+        background-color: teal;
+    }
+} 
+*/
+
+@keyframes change-color {
+    0% {
+        background-color: tomato;
+        color: #003bbf;
+    }
+    20% {
+        background-color: rgb(111, 158, 0);
+        color: #bf0076;
+    }
+    50% {
+        background-color: rgb(163, 48, 3);
+        color: hsl(64, 100%, 74%);
+    }
+    75% {
+        background-color: rgb(162, 0, 184);
+        color: #06bf00;
+    }
+    88% {
+        background-color: rgb(17, 0, 172);
+        color: #ffffff;
+    }
+    100% {
+        background-color: rgb(179, 0, 0);
+        color: #00bf20;
+    }
+}
+
+

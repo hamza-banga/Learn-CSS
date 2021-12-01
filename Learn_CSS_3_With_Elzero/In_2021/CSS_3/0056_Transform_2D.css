@@ -1,0 +1,24 @@
+/**
+ 2D Transform  
+ scale(x y )
+ scale-X = 1 
+ scale-Y
+
+ */
+.scale {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    margin-top: 250px;
+    color: #7dfb00;
+    background-color: #2d3232a3;
+    border-radius: 51px;
+    transition: 2s;
+}
+
+.scale:hover{
+    transform: scaleX(1.5)  scaleY(1.9);
+    /* transform: scaleY(1.9); */
+    /* transform: scaleZ(); */
+}

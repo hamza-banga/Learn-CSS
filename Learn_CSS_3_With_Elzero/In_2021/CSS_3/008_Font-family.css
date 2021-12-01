@@ -1,0 +1,12 @@
+body{
+    font-family: 'fantasy';
+}
+
+/* With Serif */
+.div1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* With Sans-Serif */
+.div2{
+    font-family: Arial, Helvetica, sans-serif
+}

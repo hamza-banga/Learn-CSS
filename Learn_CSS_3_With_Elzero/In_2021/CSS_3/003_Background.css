@@ -1,0 +1,30 @@
+/* 
+============
+ Background 
+============ 
+
+=========================
+    Background Color
+=========================
+*/
+
+.div1{
+    background-color: red; /* Color Name */
+    background-color: rgb(255 0 0 ); /* Red Green Blue */
+    background-color: rgba(255 0 0 /50% ); /* Red Green Blue Alpha Channel */
+    background-color: #FF0000; /* Color Hex Decimal Code */
+}
+/* 
+=========================
+    Background Image
+=========================
+*/
+.div2{
+    background-image: url(/CSS_3/Image/Syntax.gif);
+}
+
+.div3{
+    background-image: url(/CSS_3/Image/Syntax.gif);
+    background-repeat: repeat;
+}
+

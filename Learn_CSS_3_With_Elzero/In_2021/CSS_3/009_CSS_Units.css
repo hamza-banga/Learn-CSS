@@ -1,0 +1,33 @@
+.one{
+    width: auto;
+    height: auto;
+}
+
+/* 
+CSS Units
+
+    px   => 
+    em   => time it's inhertance Form Father when Father Has size 16px 2em = 32px When Size =20px 2em = 40px  and So on
+    rem  => root time inhertance Form Root <HTML> Elemnt no Father
+    vw   => View Port Width 
+    percentage => %
+
+    Default Font Size Eor Web Page is 16px
+*/
+html{
+    font-size: 20px;
+}
+body{
+    font-size: 40px;
+}
+.div1{
+    font-size: 2em ; /* This Defualte Size */
+}
+
+.div2{
+    font-size: 2rem;
+}
+/* To  See This Make Zome in For Browser And Resize The Screen */
+.div3{
+    font-size: 2vw;
+}

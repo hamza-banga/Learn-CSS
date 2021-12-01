@@ -1,0 +1,35 @@
+.div1{
+    cursor: col-resize;
+}
+
+.div2{
+    cursor:context-menu
+}
+
+.div3{
+    cursor:copy
+}
+
+.div4{
+    cursor:crosshair
+}
+
+.div5{
+    cursor:grab
+}
+
+.div6{
+    cursor:help
+}
+
+.div7{
+    cursor:move
+}
+
+.div8{
+    cursor:nesw-resize
+}
+
+.div9{
+    cursor:pointer
+}
